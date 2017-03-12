@@ -38,8 +38,8 @@ while True:
                 computer[i] = randint(0, 9)
                 
             if  ( computer[0] != computer[1]
-                | computer[0] != computer[2]
-                | computer[1] != computer[2]
+                & computer[0] != computer[2]
+                & computer[1] != computer[2]
                 ) :
                 break
 
