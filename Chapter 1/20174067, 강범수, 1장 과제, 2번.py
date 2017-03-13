@@ -18,7 +18,7 @@ while True:
         value = randint(0, 100)
 
         while True :
-            guess = int(input("number input: "))
+            guess = int(input("input number: "))
 
             if guess > value :
                 print("DOWN")
@@ -55,7 +55,7 @@ while True:
             ball = 0
                 
             for i in range(0, 3) :
-                player[i] = int(input("3 numbers input: "))
+                player[i] = int(input("input three numbers: "))
                 
             for i in range(0, 3) :
                 for j in range(0, 3) :
